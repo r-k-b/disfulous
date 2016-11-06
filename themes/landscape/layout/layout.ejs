@@ -1,5 +1,8 @@
-<%- partial('_partial/head') %>
+<!DOCTYPE html>
+<html>
+<head><%- partial('_partial/head') %></head>
 <body>
+  <%- partial('_partial/google-tag-manager-noscript') %>
   <div id="container">
     <div id="wrap">
       <%- partial('_partial/header', null, {cache: !config.relative_link}) %>

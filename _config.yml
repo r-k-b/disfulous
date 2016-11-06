@@ -65,6 +65,9 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+# google_analytics:
+google_tag_manager: GTM-52TZJH
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
