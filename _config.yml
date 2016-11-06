@@ -73,3 +73,27 @@ google_tag_manager: GTM-52TZJH
 deploy:
   type: git
   repo: git@github.com:r-k-b/r-k-b.github.io.git
+
+# Hexo Beautify
+beautify:
+  types:
+    - html
+    # - css
+    # - js
+  exclude:
+    - \*.min.css
+    - \*.min.js
+  html:
+    'indent_inner_html': true
+    'indent_size': 2
+    'indent_with_tabs': false
+    # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
+  css:
+    'indent_size': 2
+    'newline_between_rules': true
+    'indent_with_tabs': false
+    # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
+  js:
+    'indent_size': 2
+    'indent_with_tabs': false
+    # More Options (https://github.com/beautify-web/js-beautify/blob/master/README.md)
